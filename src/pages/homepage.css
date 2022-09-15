@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+  width: 5px;
+  /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #895bf1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px #e9f5ff;
+  border-radius: 10px;
+}
+
+.home {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(229, 233, 250);
+}
+.sidebarCont {
+  flex: 1;
+  /* background-color: aqua; */
+}
+.homeContainer {
+  flex: 5;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  /* background-color: brown; */
+}
+.recentTransactions {
+  /* width: 1000%; */
+  /* background-color: aqua; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.topbarContainer {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
